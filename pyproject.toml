@@ -5,6 +5,15 @@ description = "A cli tool to interactively generate a README file"
 authors = ["An Hoang <anhoang31415@gmail.com>"]
 readme = "README.md"
 include = ["src/mkreadme/static/*"]
+repository = "https://github.com/AnH0ang/mkreadme"
+homepage = "https://pypi.org/project/mkreadme/"
+keywords = ["cli", "readme", "mkreadme"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 
 [tool.poetry.scripts]
 mkreadme = 'mkreadme.__main__:main'
