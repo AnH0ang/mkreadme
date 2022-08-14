@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mkreadme"
-version = "0.2.0"
+version = "0.3.0"
 description = "A cli tool to interactively generate a README file"
 authors = ["An Hoang <anhoang31415@gmail.com>"]
 readme = "README.md"
